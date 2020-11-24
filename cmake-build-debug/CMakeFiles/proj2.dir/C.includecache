@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/1BIT/IOS/proj2/my_semaphore.c
+my_semaphore.h
+/mnt/d/1BIT/IOS/proj2/my_semaphore.h
+
+/mnt/d/1BIT/IOS/proj2/my_semaphore.h
+stdio.h
+-
+stdlib.h
+-
+semaphore.h
+-
+
+/mnt/d/1BIT/IOS/proj2/proj2.c
+my_semaphore.h
+/mnt/d/1BIT/IOS/proj2/my_semaphore.h
+

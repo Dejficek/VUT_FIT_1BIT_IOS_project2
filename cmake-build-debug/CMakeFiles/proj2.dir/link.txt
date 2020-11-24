@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/proj2.dir/proj2.c.o  -o proj2 

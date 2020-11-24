@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/d/1BIT/IOS/proj2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/1BIT/IOS/proj2/cmake-build-debug

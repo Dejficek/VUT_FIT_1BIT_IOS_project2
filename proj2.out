@@ -1,0 +1,39 @@
+1	:HACK 1	: starts
+2	:HACK 1	: waits		: 1	: 0
+3	:HACK 2	: starts
+4	:HACK 2	: waits		: 2	: 0
+5	:SERF 1	: starts
+6	:SERF 1	: waits		: 2	: 1
+7	:SERF 2	: starts
+8	:SERF 2	: waits		: 2	: 2
+9	:SERF 2	: boards	: 0	: 0
+10	:SERF 1	: member exits	: 0	: 0
+11	:HACK 1	: member exits	: 0	: 0
+12	:HACK 2	: member exits	: 0	: 0
+13	:SERF 2	: captain exits	: 0	: 0
+14	:HACK 3	: starts
+15	:HACK 3	: waits		: 1	: 0
+16	:SERF 3	: starts
+17	:SERF 3	: waits		: 1	: 1
+18	:HACK 4	: starts
+19	:SERF 4	: starts
+20	:SERF 4	: waits		: 1	: 2
+21	:HACK 4	: waits		: 2	: 2
+22	:HACK 4	: boards	: 0	: 0
+23	:SERF 3	: member exits	: 0	: 0
+24	:SERF 4	: member exits	: 0	: 0
+25	:HACK 3	: member exits	: 0	: 0
+26	:HACK 4	: captain exits	: 0	: 0
+27	:SERF 5	: starts
+28	:SERF 5	: waits		: 0	: 1
+29	:HACK 5	: starts
+30	:HACK 6	: starts
+31	:HACK 5	: waits		: 1	: 1
+32	:SERF 6	: starts
+33	:SERF 6	: waits		: 1	: 2
+34	:HACK 6	: waits		: 2	: 2
+35	:HACK 6	: boards	: 0	: 0
+36	:HACK 5	: member exits	: 0	: 0
+37	:SERF 6	: member exits	: 0	: 0
+38	:SERF 5	: member exits	: 0	: 0
+39	:HACK 6	: captain exits	: 0	: 0
